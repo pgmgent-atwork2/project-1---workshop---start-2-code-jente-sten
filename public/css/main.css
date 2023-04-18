@@ -9,6 +9,7 @@
   background-image: linear-gradient(to right, #2fae24, #D77A11);
 }
 
+
 .header {
   background-color: #D77A11;
   margin: 1rem 3rem;
@@ -17,4 +18,16 @@
 
 .main {
   margin-left: 5rem;
+  
+}
+
+.main p {
+  font-size: large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.staptitels {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
