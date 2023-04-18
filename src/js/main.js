@@ -14,7 +14,7 @@
 
   function onMapClick(e) {
     let location =
-      Math.round(e.latlng.distanceTo([51.043944, 3.725245])).toString() + 'm';
+      Math.round(e.latlng.distanceTo(locationsArr[0])).toString() + 'm';
     let locationLength = location.toString().length;
     if (locationLength > 4) {
       location =
@@ -36,9 +36,11 @@
 
   submit.addEventListener('click', (e) => {
     return [
-      (marker = L.marker([51.043944, 3.725245]).addTo(map)),
+      (marker = L.marker(locationsArr[0]).addTo(map)),
       setTimeout(() => {
-        window.alert('which is ' + locationDistance + ' away from the target');
+        window.alert(
+          'you guessed ' + locationDistance + ' away from the target'
+        );
       }, '100'),
     ];
   });
