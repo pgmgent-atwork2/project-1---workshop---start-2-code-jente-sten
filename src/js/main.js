@@ -1,6 +1,16 @@
 (() => {
   let map = L.map('map').setView([51.052618, 3.724709], 12);
 
+  let randomLocation =
+    locationsArr[Math.round(Math.random() * (locationsArr.length - 1))];
+
+  function addImage(img) {
+    let locationImage = document.getElementById('image');
+    locationImage.src = `./img/${randomLocation.image}`;
+  }
+
+  addImage();
+
   let marker;
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -14,7 +24,7 @@
 
   function onMapClick(e) {
     let location =
-      Math.round(e.latlng.distanceTo(locationsArr[0])).toString() + 'm';
+      Math.round(e.latlng.distanceTo(randomLocation.coords)).toString() + 'm';
     let locationLength = location.toString().length;
     if (locationLength > 4) {
       location =
@@ -36,7 +46,7 @@
 
   submit.addEventListener('click', (e) => {
     return [
-      (marker = L.marker(locationsArr[0]).addTo(map)),
+      (marker = L.marker(randomLocation.coords).addTo(map)),
       setTimeout(() => {
         window.alert(
           'you guessed ' + locationDistance + ' away from the target'
@@ -48,6 +58,11 @@
   const next = document.getElementById('next');
 
   next.addEventListener('click', (e) => {
-    return [map.removeLayer(marker)];
+    return [
+      map.removeLayer(marker),
+      (randomLocation =
+        locationsArr[Math.round(Math.random() * (locationsArr.length - 1))]),
+      addImage(randomLocation.image),
+    ];
   });
 })();
