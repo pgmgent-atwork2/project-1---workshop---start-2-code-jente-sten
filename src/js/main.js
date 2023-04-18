@@ -34,4 +34,6 @@ function onMapClick(e) {
   clickedLocation = e.latlng;
 }
 
+addEventListener('click');
+
 map.on('click', onMapClick);
