@@ -4,11 +4,17 @@
   width: 25rem;
 }
 
-body {
-  background-color: #2fae24;
+.body {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #2fae24, #D77A11);
 }
 
 .header {
   background-color: #D77A11;
   margin: 1rem 3rem;
+  padding-left: 2rem;
+}
+
+.main {
+  margin-left: 5rem;
 }
