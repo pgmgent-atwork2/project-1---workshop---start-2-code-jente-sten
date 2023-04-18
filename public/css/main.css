@@ -3,3 +3,12 @@
   height: 25rem;
   width: 25rem;
 }
+
+body {
+  background-color: #2fae24;
+}
+
+.header {
+  background-color: #D77A11;
+  margin: 1rem 3rem;
+}
