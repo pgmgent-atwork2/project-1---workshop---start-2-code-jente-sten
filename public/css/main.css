@@ -1,12 +1,14 @@
 #map {
-  margin: auto 0 0 auto;
+  margin: auto 8rem 0 auto;
   height: 25rem;
   width: 25rem;
+  border: #D77A11 10px solid;
+  border-radius: 1rem;
 }
 
 .body {
   margin: 0 auto;
-  background-image: linear-gradient(to right, #2fae24, #D77A11);
+  background-image: linear-gradient(to right, #2fae24, #247f11, #D77A11);
 }
 
 
@@ -14,11 +16,19 @@
   background-color: #D77A11;
   margin: 1rem 3rem;
   padding-left: 2rem;
+  border-radius: 15rem;
+
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .main {
   margin-left: 5rem;
-  
 }
 
 .main p {
@@ -27,7 +37,30 @@
   margin-bottom: 1rem;
 }
 
-.staptitels {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+.buttonSection button {
+  background-color: #D77A11;
+  width: 10rem;
+  border-radius: 10%;
+  margin-left: 10rem;
+  font-size: larger;
+}
+
+.button:hover {
+  background-color: #2fae24;
+  transform: scale(1.2);
+}
+
+.footer {
+  background-color: #D77A11;
+  margin: 7rem 3rem;
+  padding-left: 2rem;
+  border-radius: 15rem;
+}
+
+
+#image {
+  width: 40rem;
+  margin-left: 5rem;
+  border: #D77A11 10px solid;
+  border-radius: 1rem;
 }
