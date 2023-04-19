@@ -6,7 +6,7 @@ Jente Coussement & Sten Hullebroeck
 
 ## Het Project
 
-Het project is een kleine geoguessr met tiental foto's die plaatsvindt in Gent. 
+Het project is een kleine geoguessr met een tiental foto's die plaatsvindt in Gent. 
 
 ## Het project opstarten
 
