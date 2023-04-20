@@ -1,6 +1,17 @@
 (() => {
   let map = L.map('map').setView([51.052618, 3.724709], 12);
 
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution:
+      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
+
+  let marker;
+  let clickedLocation;
+  let locationDistance;
+  let popup = L.popup();
+
   let randomLocation =
     locationsArr[Math.round(Math.random() * (locationsArr.length - 1))];
 
@@ -10,17 +21,6 @@
   }
 
   addImage();
-
-  let marker;
-
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution:
-      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }).addTo(map);
-  let clickedLocation;
-  let locationDistance;
-  let popup = L.popup();
 
   function onMapClick(e) {
     let location =
