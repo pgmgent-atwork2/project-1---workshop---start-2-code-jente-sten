@@ -15,12 +15,12 @@ Dan de index.html opstarten met de live server of gewoon openen in de browser.
 
 ### Link naar het brainstorm-Figjam bestand
 
-https://www.figma.com/file/N1YGXsVDEypM3D8GznEBhj/Untitled?node-id=0%3A1&t=8JBj397ZJ7vdYsK4-1
+[https://www.figma.com/file/N1YGXsVDEypM3D8GznEBhj/Untitled?node-id=0%3A1&t=8JBj397ZJ7vdYsK4-1](https://www.figma.com/file/N1YGXsVDEypM3D8GznEBhj/Untitled?node-id=0%3A1&t=8JBj397ZJ7vdYsK4-1)
 
 ### Link naar de Gentoguessr pagina
 
-https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/index.html
+[https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/index.html](https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/index.html)
 
 ### Link naar de tutorial pagina
 
-https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/tutorial.html
+[https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/tutorial.html](https://pgmgent-atwork2.github.io/project-1---workshop---start-2-code-jente-sten/public/tutorial.html)
