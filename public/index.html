@@ -19,27 +19,29 @@
     ></script>
     <title>Gentoguessr</title>
   </head>
-  <body class="body">
+  <body class="body" class="body">
     <header class="header">
       <h1>Gentoguessr</h1>
     </header>
 
-    <main>
-      <section class="game">
+    <main class="main">
+      <section class="mainSection">
         <div class="randomPhotoDiv">
           <img id="image" src="" alt="" />
         </div>
 
         <div class="map-box">
-          <div id="map"></div>
-          <button id="submit">sumbit</button>
-          <button id="next">next</button>
+          <div id="map" class="map"></div>
         </div>
+      </section>
+      <section class="buttonSection">
+        <button id="submit" class="button">Submit</button>
+        <button id="next" class="button">Next</button>
       </section>
     </main>
 
-    <footer>
-      <h2>Made by Sten & Jente voor het Graduat Programmeren</h2>
+    <footer class="footer">
+      <h2>@Made by Sten & Jente voor het Graduat Programmeren</h2>
     </footer>
 
     <script src="../src/js/consts.js"></script>
